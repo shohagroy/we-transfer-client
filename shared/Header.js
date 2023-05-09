@@ -37,7 +37,7 @@ const Header = () => {
   ];
 
   return (
-    <section className="fixed top-0 left-0 w-full">
+    <section className="fixed top-0 left-0 w-full z-50">
       <div className="py-4 px-6 flex justify-between items-center h-full w-full">
         <div className="">
           {/* logo  */}

@@ -1,4 +1,5 @@
 import FileTransfer from "@/components/FileTransfer";
+import HomeCarusole from "@/components/HomeCarusole";
 import HomeFooter from "@/components/HomeFooter";
 import CommonLayout from "@/Layouts/CommonLayout";
 import Head from "next/head";
@@ -11,6 +12,7 @@ function Home() {
         <title>We Transfer</title>
       </Head>
       <main className={`bg-blue-200 h-screen w-full`}>
+        <HomeCarusole />
         <div>
           <FileTransfer />
         </div>
