@@ -9,7 +9,7 @@ function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>We Transfer</title>
       </Head>
-      <main className={``}>
+      <main className={`bg-blue-200 h-screen w-full`}>
         <div>
           <h2>Hello world</h2>
         </div>
